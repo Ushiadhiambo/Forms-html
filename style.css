@@ -67,7 +67,7 @@ text-align: center;
 
 .hr-lines:before{
 content:" ";
-height: 2px;
+height: 1px;
 width: 230px;
 background:black;
 display: block;
@@ -78,7 +78,7 @@ left: 0;
 
 .hr-lines:after{
 content:" ";
-height: 2px;
+height: 1px;
 width: 230px;
 background:black;
 display: block;
@@ -88,28 +88,26 @@ right: 0;
 }
 .names{
     display:flex;
-    gap: 50px;
-    padding: 8px;
-    margin: 5px;
-    padding: 12px 6px;
-    margin: 5px;
-    width: 90%;
-
+    margin: -10px;
+    padding: 12px;
+    gap: 130px;
     
 }
 #first-name{
-    padding: 12px 6px;
-    width: 90%;
-   margin: 5px;
-   justify-content: left;
+    padding: 12px 6px 12px 6px;
+    width: 250px;
+
+   
+   
    
 }
 
 #last-name{
-    padding: 12px 6px;
-    width: 90%;
+    padding: 12px 6px 12px 6px;
+    width: 243px;
     margin: 5px;
-    justify-content: right;
+
+    
 }
 #email-address{
     padding: 12px 6px;
@@ -191,6 +189,9 @@ h1 {
 }
 .body content{
     background-color: rgb(238, 226, 238);
+}
+h2{
+    font-size: 40px;
 }
 
 
